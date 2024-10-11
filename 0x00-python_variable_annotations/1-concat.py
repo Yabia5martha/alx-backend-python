@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """
-Basic Annotations - concat
-Write type-annotated function concat that takes two strings as argument
-Returns a concatenated string
+Basic Annotations - add
+Function to write a type-annotated function add
+Takes two float a, b and return their sum as float
 """
 
 
-def concat(str1: str, str2: str) -> str:
+def add(a: float, b: float) -> float:
     """
-    Type annotated function
-    Concat
+    type-annotated function
     """
-    return str1 + str2
+    return a + b
